@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   static Color primaryLight = Color(0xffB7935F);
@@ -13,13 +14,29 @@ class AppTheme {
       unselectedItemColor: white,
     ),
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.transparent,
-      centerTitle: true,
-      titleTextStyle: TextStyle(
-        fontSize: 30,
-        fontWeight: FontWeight.bold,
-        color: black,
-        // GoogleFonts.getFont('Lato') 
+        backgroundColor: Colors.transparent,
+        centerTitle: true,
+        titleTextStyle: GoogleFonts.amiri(
+          textStyle: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: black,
+          ),
+        )),
+    textTheme: TextTheme(
+      headlineSmall: GoogleFonts.amiri(
+        textStyle: TextStyle(
+          fontSize: 25,
+          fontWeight: FontWeight.w400,
+          color: black,
+        ),
+      ),
+      titleMedium: GoogleFonts.amiri(
+        textStyle: TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.w400,
+          color: black,
+        ),
       ),
     ),
   );

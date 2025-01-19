@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('اسلامي'),
+          title: const Text('إسلامي'),
         ),
         // extendBodyBehindAppBar: true,
         body: Container(child: tabs[selectedIndex]),
