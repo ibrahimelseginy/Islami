@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
 
 class QuranTab extends StatelessWidget {
-  const QuranTab({super.key});
+   const QuranTab({super.key});
 
   @override
   Widget build(BuildContext context) {
