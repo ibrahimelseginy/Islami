@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami_testing/app_theme.dart';
+import 'package:islami_testing/tabs/settings/settings_provider.dart';
 import 'package:islami_testing/widgets/loading_indicator.dart';
+import 'package:provider/provider.dart';
 
 class SuraDetailsScreen extends StatefulWidget {
   static const String routeName = 'sura-details';
@@ -17,6 +19,8 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    SettingsProvider settingsProvider = Provider.of<SettingsProvider>(context);
+
     SuraDetailsArgs args =
         ModalRoute.of(context)!.settings.arguments as SuraDetailsArgs;
 
@@ -25,9 +29,10 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
     }
 
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/images/default_bg.png'),
+            image: AssetImage(
+                'assets/images/${settingsProvider.backgroundImageName}.png'),
             fit: BoxFit.fill),
       ),
       child: Scaffold(
@@ -42,12 +47,13 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
                   vertical: MediaQuery.of(context).size.width * 0.05,
                 ),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
                   color: AppTheme.white,
-                ),padding: EdgeInsets.all(20),
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                padding: const EdgeInsets.all(20),
                 child: ListView.builder(
                   itemBuilder: (context, index) => Text(
-                    ayat[index],
+                    ayat[index], 
                     textDirection: TextDirection.rtl,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),

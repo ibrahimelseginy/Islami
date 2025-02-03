@@ -7,20 +7,20 @@ class RadioTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 100,
         ),
-        Image(
+        const Image(
           image: AssetImage('assets/images/radio_image.png'),
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Text(
           'إذاعة القرآن الكريم',
           style: Theme.of(context).textTheme.headlineSmall,
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -29,7 +29,7 @@ class RadioTab extends StatelessWidget {
             color: Theme.of(context).primaryColor,
             size: 30,
           ),
-          SizedBox(
+          const SizedBox(
             width: 30,
           ),
           Icon(
@@ -37,7 +37,7 @@ class RadioTab extends StatelessWidget {
             color: Theme.of(context).primaryColor,
             size: 50,
           ),
-          SizedBox(
+          const SizedBox(
             width: 30,
           ),
           Icon(
