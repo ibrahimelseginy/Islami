@@ -1,12 +1,193 @@
 import 'package:flutter/material.dart';
+import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
 
 class QuranTab extends StatelessWidget {
   const QuranTab({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        
-        );
+    List<String> suraName = [
+      "الفاتحه",
+      "البقرة",
+      "آل عمران",
+      "النساء",
+      "المائدة",
+      "الأنعام",
+      "الأعراف",
+      "الأنفال",
+      "التوبة",
+      "يونس",
+      "هود",
+      "يوسف",
+      "الرعد",
+      "إبراهيم",
+      "الحجر",
+      "النحل",
+      "الإسراء",
+      "الكهف",
+      "مريم",
+      "طه",
+      "الأنبياء",
+      "الحج",
+      "المؤمنون",
+      "النّور",
+      "الفرقان",
+      "الشعراء",
+      "النّمل",
+      "القصص",
+      "العنكبوت",
+      "الرّوم",
+      "لقمان",
+      "السجدة",
+      "الأحزاب",
+      "سبأ",
+      "فاطر",
+      "يس",
+      "الصافات",
+      "ص",
+      "الزمر",
+      "غافر",
+      "فصّلت",
+      "الشورى",
+      "الزخرف",
+      "الدّخان",
+      "الجاثية",
+      "الأحقاف",
+      "محمد",
+      "الفتح",
+      "الحجرات",
+      "ق",
+      "الذاريات",
+      "الطور",
+      "النجم",
+      "القمر",
+      "الرحمن",
+      "الواقعة",
+      "الحديد",
+      "المجادلة",
+      "الحشر",
+      "الممتحنة",
+      "الصف",
+      "الجمعة",
+      "المنافقون",
+      "التغابن",
+      "الطلاق",
+      "التحريم",
+      "الملك",
+      "القلم",
+      "الحاقة",
+      "المعارج",
+      "نوح",
+      "الجن",
+      "المزّمّل",
+      "المدّثر",
+      "القيامة",
+      "الإنسان",
+      "المرسلات",
+      "النبأ",
+      "النازعات",
+      "عبس",
+      "التكوير",
+      "الإنفطار",
+      "المطفّفين",
+      "الإنشقاق",
+      "البروج",
+      "الطارق",
+      "الأعلى",
+      "الغاشية",
+      "الفجر",
+      "البلد",
+      "الشمس",
+      "الليل",
+      "الضحى",
+      "الشرح",
+      "التين",
+      "العلق",
+      "القدر",
+      "البينة",
+      "الزلزلة",
+      "العاديات",
+      "القارعة",
+      "التكاثر",
+      "العصر",
+      "الهمزة",
+      "الفيل",
+      "قريش",
+      "الماعون",
+      "الكوثر",
+      "الكافرون",
+      "النصر",
+      "المسد",
+      "الإخلاص",
+      "الفلق",
+      "الناس"
+    ];
+    return Column(
+      children: [
+        Image.asset('assets/images/qur2an_screen_logo.png'),
+        const SizedBox(height: 8),
+        Divider(
+          height: 8,
+          thickness: 2,
+          color: Theme.of(context).primaryColor,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'اسم السورة ',
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
+            const SizedBox(
+              width: 130,
+            ),
+            Text(
+              'عدد الآيات ',
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
+          ],
+        ),
+        Divider(
+          height: 8,
+          thickness: 2,
+          color: Theme.of(context).primaryColor,
+        ),
+        Expanded(
+          child: ListView.separated(
+            itemBuilder: (context, index) => InkWell(
+              onTap: () {
+                Navigator.of(context).pushNamed(
+                  SuraDetailsScreen.routeName,
+                  arguments: SuraDetailsArgs(
+                    index,
+                    suraName[index],
+                  ),
+                );
+              },
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+                child: Text(
+                  textAlign: TextAlign.center,
+                  suraName[index],
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+              ),
+            ),
+            itemCount: suraName.length,
+            separatorBuilder: (context, index) => Divider(
+              thickness: 2,
+              height: 8,
+              color: Theme.of(context).primaryColor,
+            ),
+          ),
+        ),
+        Divider(
+          height: 8,
+          thickness: 2,
+          color: Theme.of(context).primaryColor,
+        )
+      ],
+    );
   }
 }

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:islami_testing/tabs/hadeeth/hadeeth_tab.dart';
+import 'package:islami_testing/generated/l10n.dart';
+import 'package:islami_testing/tabs/hadeth/hadeeth_tab.dart';
 import 'package:islami_testing/tabs/quran/quran_tab.dart';
 import 'package:islami_testing/tabs/radio/radio_tab.dart';
 import 'package:islami_testing/tabs/sebha/sebha_tab.dart';
+import 'package:islami_testing/tabs/settings/settings_provider.dart';
 import 'package:islami_testing/tabs/settings/settings_tab.dart';
+import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = 'home';
@@ -14,10 +17,10 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<Widget> tabs = [
-    RadioTab(),
-    SebhaTab(),
-    HadeethTab(),
     QuranTab(),
+    HadeethTab(),
+    SebhaTab(),
+    RadioTab(),
     SettingsTab(),
   ];
   int selectedIndex = 0;
@@ -25,14 +28,19 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/images/default_bg.png'),
+            image: AssetImage(
+              'assets/images/${Provider.of<SettingsProvider>(context).backgroundImageName}.png',
+            ),
             fit: BoxFit.fill),
       ),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('اسلامي'),
+          title: Text(
+            S.of(context).islami,
+            // AppLocalizations.of(context)!.islami
+          ),
         ),
         // extendBodyBehindAppBar: true,
         body: Container(child: tabs[selectedIndex]),
@@ -43,27 +51,35 @@ class _HomeScreenState extends State<HomeScreen> {
             setState(() {});
           },
           currentIndex: selectedIndex,
-          items: const [
+          items: [
             BottomNavigationBarItem(
-              icon: ImageIcon(AssetImage('assets/images/radio.png')),
-              label: 'Radio',
+              icon:
+                  const ImageIcon(AssetImage('assets/images/moshaf_gold.png')),
+              label: S.of(context).quran,
+              // AppLocalizations.of(context)!.quran,
             ),
             BottomNavigationBarItem(
-              icon: ImageIcon(AssetImage('assets/images/sebha_blue.png')),
-              label: 'Sebha',
-            ),
-            BottomNavigationBarItem(
-              icon: ImageIcon(
+              icon: const ImageIcon(
                   AssetImage('assets/images/quran_quran_svgrepo_com.png')),
-              label: 'Hadeeth',
+              label: S.of(context).hadeth,
+              // AppLocalizations.of(context)!.hadeth,
             ),
             BottomNavigationBarItem(
-              icon: ImageIcon(AssetImage('assets/images/moshaf_gold.png')),
-              label: 'Quran',
+              icon: const ImageIcon(AssetImage('assets/images/sebha_blue.png')),
+              label:
+                  // AppLocalizations.of(context)!.sebha,
+                  S.of(context).sebha,
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.settings_outlined),
-              label: 'Settings',
+              icon: const ImageIcon(AssetImage('assets/images/radio.png')),
+              label:
+                  // AppLocalizations.of(context)!.radio,
+                  S.of(context).radio,
+            ),
+            BottomNavigationBarItem(
+              icon: const Icon(Icons.settings_outlined),
+              label: S.of(context).settings,
+              // AppLocalizations.of(context)!.settings,
             ),
           ],
         ),
