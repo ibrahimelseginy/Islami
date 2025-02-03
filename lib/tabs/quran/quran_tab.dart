@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
 
 class QuranTab extends StatelessWidget {
-   const QuranTab({super.key});
+  const QuranTab({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -125,7 +125,7 @@ class QuranTab extends StatelessWidget {
     return Column(
       children: [
         Image.asset('assets/images/qur2an_screen_logo.png'),
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         Divider(
           height: 8,
           thickness: 2,
@@ -135,14 +135,14 @@ class QuranTab extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'عدد الآيات ',
+              'اسم السورة ',
               style: Theme.of(context).textTheme.headlineSmall,
             ),
-            SizedBox(
+            const SizedBox(
               width: 130,
             ),
             Text(
-              'اسم السورة ',
+              'عدد الآيات ',
               style: Theme.of(context).textTheme.headlineSmall,
             ),
           ],

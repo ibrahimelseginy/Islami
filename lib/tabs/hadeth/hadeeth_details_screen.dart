@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:islami_testing/app_theme.dart';
-import 'package:islami_testing/tabs/hadeeth/hadeth.dart';
+import 'package:islami_testing/tabs/hadeth/hadeth.dart';
+import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:provider/provider.dart';
 
 class HadeethDetailsScreen extends StatelessWidget {
   static const String routeName = 'hadeth-details';
@@ -9,21 +11,24 @@ class HadeethDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SettingsProvider settingsProvider = Provider.of<SettingsProvider>(context);
+
     Hadeth hadeth = ModalRoute.of(context)!.settings.arguments as Hadeth;
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/images/default_bg.png'),
+            image: AssetImage(
+                'assets/images/${settingsProvider.backgroundImageName}.png'),
             fit: BoxFit.fill),
       ),
       child: Scaffold(
         appBar: AppBar(
           title: Text(hadeth.title),
         ),
-        body: Container(
+        body: Container( 
           margin: EdgeInsets.symmetric(
-            horizontal: MediaQuery.of(context).size.width * 0.05,
-            vertical: MediaQuery.of(context).size.width * 0.05,
+            horizontal: MediaQuery.of(context).size.width * 0.03,
+            vertical: MediaQuery.of(context).size.width * 0.03,
           ),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami_testing/tabs/hadeeth/hadeeth_details_screen.dart';
-import 'package:islami_testing/tabs/hadeeth/hadeth.dart';
+import 'package:islami_testing/tabs/hadeth/hadeeth_details_screen.dart';
+import 'package:islami_testing/tabs/hadeth/hadeth.dart';
 import 'package:islami_testing/widgets/loading_indicator.dart';
 
 class HadeethTab extends StatefulWidget {
@@ -19,7 +19,7 @@ class _HadeethTabState extends State<HadeethTab> {
     if (ahadeth.isEmpty) {
       loadAhadethFile();
     }
-    ;
+
     return Column(
       children: [
         Image.asset('assets/images/hadeth_logo.png'),
@@ -33,7 +33,7 @@ class _HadeethTabState extends State<HadeethTab> {
           style: Theme.of(context).textTheme.headlineSmall,
         ),
         Divider(
-          height: 6,
+          height: 2,
           thickness: 2,
           color: Theme.of(context).primaryColor,
         ),
@@ -47,15 +47,20 @@ class _HadeethTabState extends State<HadeethTab> {
                           HadeethDetailsScreen.routeName,
                           arguments: ahadeth[index]);
                     },
-                    child: Text(
-                      textAlign: TextAlign.center,
-                      ahadeth[index].title,
-                      style: Theme.of(context).textTheme.headlineSmall,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 20, vertical: 5),
+                      child: Text(
+                        textAlign: TextAlign.center,
+                        ahadeth[index].title,
+                        style: Theme.of(context).textTheme.headlineSmall,
+                      ),
                     ),
                   ),
                   itemCount: ahadeth.length,
                   separatorBuilder: (context, index) => Divider(
                     thickness: 2,
+                    height: 2,
                     color: Theme.of(context).primaryColor,
                   ),
                 ),
