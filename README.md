@@ -70,7 +70,7 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 
 ## Light Mode ✨
 <div style="display: flex; justify-content: space-between;">
-<img src="https://github.com/user-attachments/assets/78f63ac2-db11-4850-a59e-14e7238d5237.png ">
+<img src="![Image](https://github.com/user-attachments/assets/78f63ac2-db11-4850-a59e-14e7238d5237).png "  width="150" height="315">
 <img src="https://github.com/user-attachments/assets/3f904b90-26ea-4d81-8aa3-73ea9237d3d9.png " width="150" height="315">
 <img src="https://github.com/user-attachments/assets/9b6e6a34-7182-4e80-89f9-0b28181d9c1f.png " width="150" height="315">
 <img src="https://github.com/user-attachments/assets/370d6d8a-c713-4f87-8b51-16a8fe9e9615.png " width="150" height="315">
