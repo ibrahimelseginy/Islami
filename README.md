@@ -71,13 +71,13 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 ## Light Mode ✨
 <div style="display: flex; justify-content: space-between;">
 <img src="https://i.postimg.cc/hP9vjTz8/photo-5-2025-02-04-04-49-37.jpg "  width="180" height="315">
-<img src="https://github.com/user-attachments/assets/78f63ac2-db11-4850-a59e-14e7238d5237.png "  width="150" height="315">
-<img src="https://github.com/user-attachments/assets/3f904b90-26ea-4d81-8aa3-73ea9237d3d9.png " width="150" height="315">
+<img src="https://i.postimg.cc/vHMM0jT9/346296464-7c8e5b48-e245-4c11-9fb5-f8a55c65dc11.jpg "  width="150" height="315">
+<img src="https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg" width="150" height="315">
 <img src="https://github.com/user-attachments/assets/9b6e6a34-7182-4e80-89f9-0b28181d9c1f.png " width="150" height="315">
 <img src="https://github.com/user-attachments/assets/370d6d8a-c713-4f87-8b51-16a8fe9e9615.png " width="150" height="315">
 <img src="https://github.com/user-attachments/assets/42bb8930-f9b3-4d4b-b4a8-e7e1d71d8920.png " width="150" height="315">
-![Light Mode](https://raw.githubusercontent.com/ibrahimelseginy/Islami/main/assets/image1.png)
 
+[![photo-1-2025-02-04-04-49-37.jpg](https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg)](https://postimg.cc/xqd4WLWr)
 
 
 <div style="display: flex; justify-content: space-between; margin-top: 30px;">
