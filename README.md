@@ -5,8 +5,9 @@
 <h1 align="center"> Islami App 🕌</h1>
 
 
-Are you looking for an app that will enhance your spiritual journey and help you get closer to Allah?
-Welcome to Islami App is your perfect companion!
+Are you looking for an app that will enhance your spiritual journey and help you get closer to Allah ..?
+
+Welcome to Islami App is your perfect companion...!
 
 Designed using Flutter, this app provides a seamless experience to access a variety of features designed to help you in your religious practices.
 
