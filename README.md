@@ -108,12 +108,13 @@ https://github.com/ibrahimelseginy/Islami/assets/160798019/8c8ef9f3-245c-4301-82
 
 ## Credits 🙌
 
-This project was made possible thanks to the amazing contributions of developers like you, as well as the following technologies:
 
 - Flutter: A powerful framework for building natively compiled applications for mobile, web, and desktop from a single codebase.
 - Dart: The programming language used to build Flutter apps.
 
-Thank you for checking out our Flutter Islami App Project! We hope you enjoy using it as much as we enjoyed building it. Happy coding! 🎉
+Thank you for checking out our Flutter Islami App Project ...! We hope you enjoy using it as much as we enjoyed building it.
+
+Happy coding! 🎉
 
 ---
 May Islami App be a source of guidance and blessings for users. **JazakAllahu Khairan!** 🌟
