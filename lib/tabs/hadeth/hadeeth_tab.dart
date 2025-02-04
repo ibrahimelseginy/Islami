@@ -23,19 +23,17 @@ class _HadeethTabState extends State<HadeethTab> {
     return Column(
       children: [
         Image.asset('assets/images/hadeth_logo.png'),
-        Divider(
+        const Divider(
           height: 6,
           thickness: 2,
-          color: Theme.of(context).primaryColor,
         ),
         Text(
           ' الأحاديث ',
           style: Theme.of(context).textTheme.headlineSmall,
         ),
-        Divider(
+        const Divider(
           height: 2,
           thickness: 2,
-          color: Theme.of(context).primaryColor,
         ),
         Expanded(
           child: ahadeth.isEmpty
@@ -58,10 +56,9 @@ class _HadeethTabState extends State<HadeethTab> {
                     ),
                   ),
                   itemCount: ahadeth.length,
-                  separatorBuilder: (context, index) => Divider(
+                  separatorBuilder: (context, index) => const Divider(
                     thickness: 2,
                     height: 2,
-                    color: Theme.of(context).primaryColor,
                   ),
                 ),
         ),

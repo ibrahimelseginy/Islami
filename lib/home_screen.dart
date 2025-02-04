@@ -45,7 +45,6 @@ class _HomeScreenState extends State<HomeScreen> {
         // extendBodyBehindAppBar: true,
         body: Container(child: tabs[selectedIndex]),
         bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
           onTap: (index) {
             selectedIndex = index;
             setState(() {});
@@ -53,30 +52,35 @@ class _HomeScreenState extends State<HomeScreen> {
           currentIndex: selectedIndex,
           items: [
             BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
               icon:
                   const ImageIcon(AssetImage('assets/images/moshaf_gold.png')),
               label: S.of(context).quran,
               // AppLocalizations.of(context)!.quran,
             ),
             BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
               icon: const ImageIcon(
                   AssetImage('assets/images/quran_quran_svgrepo_com.png')),
               label: S.of(context).hadeth,
               // AppLocalizations.of(context)!.hadeth,
             ),
             BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
               icon: const ImageIcon(AssetImage('assets/images/sebha_blue.png')),
               label:
                   // AppLocalizations.of(context)!.sebha,
                   S.of(context).sebha,
             ),
             BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
               icon: const ImageIcon(AssetImage('assets/images/radio.png')),
               label:
                   // AppLocalizations.of(context)!.radio,
                   S.of(context).radio,
             ),
             BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
               icon: const Icon(Icons.settings_outlined),
               label: S.of(context).settings,
               // AppLocalizations.of(context)!.settings,

@@ -8,5 +8,8 @@
       "language":" اللغة"  ,
       "english":"الانجليزية",
       "arabic":" العربية"  ,
-      "radio":"الراديو" 
+      "radio":"الراديو" , 
+       "ayat_count": "عدد الايات",
+      "tasbeeh_count": "عدد التسبيحات",
+      "sura": " السور"
 }

@@ -8,6 +8,10 @@
       "language":" language"  ,
       "english":"English",
       "arabic":" Arabic"  ,
-      "radio":"Radio"
+      "radio":"Radio",
+      "ayat_count": "Number of Ayat",
+      "tasbeeh_count": "Tasbeeh Count",
+      "sura": "Sura "
+
       
 }

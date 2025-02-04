@@ -47,13 +47,15 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
                   vertical: MediaQuery.of(context).size.width * 0.05,
                 ),
                 decoration: BoxDecoration(
-                  color: AppTheme.white,
+                  color: Theme.of(context).brightness == Brightness.light
+                      ? AppTheme.white
+                      : AppTheme.primaryDark,
                   borderRadius: BorderRadius.circular(25),
                 ),
                 padding: const EdgeInsets.all(20),
                 child: ListView.builder(
                   itemBuilder: (context, index) => Text(
-                    ayat[index], 
+                    ayat[index],
                     textDirection: TextDirection.rtl,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),

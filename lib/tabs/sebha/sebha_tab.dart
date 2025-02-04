@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:islami_testing/app_theme.dart';
 import 'package:islami_testing/tabs/settings/settings_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -84,12 +86,21 @@ class _SebhaTabState extends State<SebhaTab> {
           padding: const EdgeInsets.all(10),
           margin: const EdgeInsets.all(10),
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(25),
-              color: Theme.of(context).primaryColor),
-          child: Text(
-            doaa[index],
-            style: Theme.of(context).textTheme.headlineSmall,
+            borderRadius: BorderRadius.circular(25),
+            color: Theme.of(context).brightness == Brightness.light
+                ? AppTheme.primaryLight
+                : AppTheme.gold,
           ),
+          child: Text(doaa[index],
+              style: GoogleFonts.amiri(
+                textStyle: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.w400,
+                  color: Theme.of(context).brightness == Brightness.light
+                      ? AppTheme.white
+                      : AppTheme.black,
+                ),
+              )),
         )
       ],
     );

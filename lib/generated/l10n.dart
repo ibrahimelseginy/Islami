@@ -104,6 +104,31 @@ class S {
   String get radio {
     return Intl.message('Radio', name: 'radio', desc: '', args: []);
   }
+
+  /// `Number of Ayat`
+  String get ayat_count {
+    return Intl.message(
+      'Number of Ayat',
+      name: 'ayat_count',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tasbeeh Count`
+  String get tasbeeh_count {
+    return Intl.message(
+      'Tasbeeh Count',
+      name: 'tasbeeh_count',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sura `
+  String get sura {
+    return Intl.message('Sura ', name: 'sura', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

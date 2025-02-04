@@ -11,8 +11,6 @@ class SettingsProvider with ChangeNotifier {
   String get ImageName_Head_Sebha =>
       themeMode == ThemeMode.light ? 'head_sebha_logo' : 'head_sebha_dark';
 
-       
-
   void changeTheme(ThemeMode selectedTheme) {
     if (selectedTheme == themeMode) return;
     themeMode = selectedTheme;

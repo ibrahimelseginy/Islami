@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami_testing/app_theme.dart';
 
 class RadioTab extends StatelessWidget {
   const RadioTab({super.key});
@@ -26,7 +27,9 @@ class RadioTab extends StatelessWidget {
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
           Icon(
             Icons.skip_next_sharp,
-            color: Theme.of(context).primaryColor,
+            color: Theme.of(context).brightness == Brightness.light
+                ? AppTheme.primaryLight
+                : AppTheme.gold,
             size: 30,
           ),
           const SizedBox(
@@ -34,7 +37,9 @@ class RadioTab extends StatelessWidget {
           ),
           Icon(
             Icons.play_arrow_rounded,
-            color: Theme.of(context).primaryColor,
+            color: Theme.of(context).brightness == Brightness.light
+                ? AppTheme.primaryLight
+                : AppTheme.gold,
             size: 50,
           ),
           const SizedBox(
@@ -42,7 +47,9 @@ class RadioTab extends StatelessWidget {
           ),
           Icon(
             Icons.skip_previous_sharp,
-            color: Theme.of(context).primaryColor,
+            color: Theme.of(context).brightness == Brightness.light
+                ? AppTheme.primaryLight
+                : AppTheme.gold,
             size: 30,
           ),
         ])

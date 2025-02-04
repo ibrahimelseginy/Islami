@@ -14,7 +14,10 @@ class AppTheme {
       selectedItemColor: black,
       backgroundColor: primaryLight,
       unselectedItemColor: white,
+      type: BottomNavigationBarType.shifting,
     ),
+    brightness: Brightness.light,
+    dividerTheme: DividerThemeData(color: primaryLight),
     appBarTheme: AppBarTheme(
         backgroundColor: Colors.transparent,
         centerTitle: true,
@@ -44,12 +47,14 @@ class AppTheme {
   );
   static ThemeData darkTheme = ThemeData(
     scaffoldBackgroundColor: Colors.transparent,
-    primaryColor: gold,
+    primaryColor: primaryDark,
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       selectedItemColor: gold,
       backgroundColor: primaryDark,
       unselectedItemColor: white,
-    ),
+      type: BottomNavigationBarType.shifting,
+    ), brightness: Brightness.dark,
+    dividerTheme: DividerThemeData(color: gold),
     appBarTheme: AppBarTheme(
         backgroundColor: Colors.transparent,
         centerTitle: true,

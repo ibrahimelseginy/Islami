@@ -16,6 +16,9 @@ class HadeethDetailsScreen extends StatelessWidget {
     Hadeth hadeth = ModalRoute.of(context)!.settings.arguments as Hadeth;
     return Container(
       decoration: BoxDecoration(
+        color: Theme.of(context).brightness == Brightness.light
+            ? AppTheme.white
+            : AppTheme.primaryDark,
         image: DecorationImage(
             image: AssetImage(
                 'assets/images/${settingsProvider.backgroundImageName}.png'),
@@ -25,14 +28,16 @@ class HadeethDetailsScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text(hadeth.title),
         ),
-        body: Container( 
+        body: Container(
           margin: EdgeInsets.symmetric(
             horizontal: MediaQuery.of(context).size.width * 0.03,
             vertical: MediaQuery.of(context).size.width * 0.03,
           ),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25),
-            color: AppTheme.white,
+            color: Theme.of(context).brightness == Brightness.light
+                ? AppTheme.white
+                : AppTheme.primaryDark,
           ),
           padding: const EdgeInsets.all(20),
           child: ListView.builder(
