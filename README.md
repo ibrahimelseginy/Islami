@@ -5,9 +5,9 @@
 <h1 align="center"> Islami App 🕌</h1>
 
 
-Are you looking for an app that will enhance your spiritual journey and help you get closer to Allah ..?
+Are you looking for an app that will enhance your spiritual journey and help you get closer to Allah  ?
 
-Welcome to Islami App is your perfect companion...!
+Welcome to Islami App is your perfect companion  !
 
 Designed using Flutter, this app provides a seamless experience to access a variety of features designed to help you in your religious practices.
 
@@ -49,7 +49,7 @@ All this in one app, with the option to switch between light and dark modes for 
  
       Run the app using `flutter run`.
 
-4. **Explore and Enjoy:** Once the app is running, explore its features!  
+4. **Explore and Enjoy:** Once the app is running, explore its features !  
 
 ## Contributing:
 I welcome contributions from the community to enhance Muslim App further. Whether it's adding new features, fixing bugs, or improving documentation, your contributions are valuable in making this app more beneficial for users worldwide.
@@ -112,9 +112,11 @@ https://github.com/ibrahimelseginy/Islami/assets/160798019/8c8ef9f3-245c-4301-82
 - Flutter: A powerful framework for building natively compiled applications for mobile, web, and desktop from a single codebase.
 - Dart: The programming language used to build Flutter apps.
 
-Thank you for checking out our Flutter Islami App Project ...! We hope you enjoy using it as much as we enjoyed building it.
+Thank you for checking out our Flutter Islami App Project  !
 
-Happy coding! 🎉
+We hope you enjoy using it as much as we enjoyed building it .
+
+Happy coding !🎉
 
 ---
 May Islami App be a source of guidance and blessings for users. **JazakAllahu Khairan!** 🌟
