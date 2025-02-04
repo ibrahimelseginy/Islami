@@ -5,8 +5,14 @@
 <h1 align="center"> Islami App 🕌</h1>
 
 
+Are you looking for an app that will enhance your spiritual journey and help you get closer to Allah?
+Welcome to Islami App is your perfect companion!
 
-Welcome to Islami App, your companion for spiritual growth and guidance! This Flutter app is designed to provide a range of features tailored for Muslims around the world. With Islami App, you can easily access the Quran, a collection of Hadiths, engage in Dhikr (remembrance of Allah), and tune in to a radio station for spiritual nourishment.
+Designed using Flutter, this app provides a seamless experience to access a variety of features designed to help you in your religious practices.
+
+With Islami App, you can read the entire Holy Quran, explore a collection of authentic hadiths, engage in dhikr, and listen to Quranic recitations through the integrated radio feature.
+
+All this in one app, with the option to switch between light and dark modes for a personalized and enriching experience
 
 ## Features 🚀
 
