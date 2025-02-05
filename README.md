@@ -73,12 +73,9 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 <img src="https://i.postimg.cc/vHMM0jT9/346296464-7c8e5b48-e245-4c11-9fb5-f8a55c65dc11.jpg "  width="150" height="315">
 <img src="https://i.postimg.cc/hP9vjTz8/photo-5-2025-02-04-04-49-37.jpg "  width="150" height="315">
 <img src="https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg" width="150" height="315">
-<img src=" " width="150" height="315">
-<img src="https://github.com/user-attachments/assets/370d6d8a-c713-4f87-8b51-16a8fe9e9615.png " width="150" height="315">
-<img src="https://github.com/user-attachments/assets/42bb8930-f9b3-4d4b-b4a8-e7e1d71d8920.png " width="150" height="315">
-
-[![photo-1-2025-02-04-04-49-37.jpg](https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg)](https://postimg.cc/xqd4WLWr)
-
+<img src="https://i.postimg.cc/KjLRRjD6/photo-4-2025-02-04-04-49-37.jpg " width="150" height="315">
+<img src="https://i.postimg.cc/76JLWhd5/photo-6-2025-02-04-04-49-37.jpg " width="150" height="315">
+<img src="https://i.postimg.cc/KcLz7KtV/photo-7-2025-02-04-04-49-37.jpg" width="150" height="315">
 
 <div style="display: flex; justify-content: space-between; margin-top: 30px;">
 <img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/2b23aa4c-14aa-4b21-9569-5875be67eae3.png " width="150" height="315">
