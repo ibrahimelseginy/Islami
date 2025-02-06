@@ -7,8 +7,11 @@ import 'package:islami_testing/tabs/hadeth/hadeeth_details_screen.dart';
 import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
 import 'package:islami_testing/tabs/settings/settings_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   runApp(
     ChangeNotifierProvider(
       create: (context) => SettingsProvider(),
@@ -29,7 +32,6 @@ class Islami extends StatelessWidget {
         // child: Builder(
         //   builder: (ctx) =>
         MaterialApp(
-     
       debugShowCheckedModeBanner: false,
       routes: {
         HomeScreen.routeName: (_) => const HomeScreen(),
