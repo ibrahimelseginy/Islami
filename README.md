@@ -77,31 +77,20 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 <img src="https://i.postimg.cc/76JLWhd5/photo-6-2025-02-04-04-49-37.jpg " width="150" height="315">
 <img src="https://i.postimg.cc/KcLz7KtV/photo-7-2025-02-04-04-49-37.jpg" width="150" height="315">
 
-<div style="display: flex; justify-content: space-between; margin-top: 30px;">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/2b23aa4c-14aa-4b21-9569-5875be67eae3.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/7ec0576c-12dd-4960-897a-c785ed74258f.png " width="150" height="315">
 </div>
-
-
 
 ## Dark Mode ✨
 <div style="display: flex; justify-content: space-between; margin-top: 50px;">
  
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/de8eeb1b-8242-48aa-98fb-863f3460d6b4.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/228476bd-2db5-4658-ba55-96a4fc205a30.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/005c21e7-bcc7-478f-9557-0b1bfac8f937.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/54b9ab1f-a725-4336-a0d7-4d6fda02420c.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/15cde50e-dbd3-4ba2-9506-bf8ad22de9ad.png " width="150" height="315"> 
+<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg" width="150" height="315">
+<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg " width="150" height="315">
+<img src="https://i.postimg.cc/YSG4Jdm2/photo-9-2025-02-04-04-49-37.jpg " width="150" height="315">
+<img src="  https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg " width="150" height="315">
+<img src="  " width="150" height="315"> 
 </div>
-
-<div style="display: flex; justify-content: space-between; margin-top: 30px;">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/a9e2226f-69e3-4bdd-92e5-3c1dec56308c.png " width="150" height="315">
-<img src="https://github.com/ibrahimelseginy/Islami/assets/160798019/596f36cc-802b-4447-82c0-26cd071e638a.png " width="150" height="315">
-</div>
-
-
+[![photo-8-2025-02-04-04-49-37.jpg](https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg)](https://postimg.cc/gwKcHXtj)
 <div>  Islami 🕌</div>  
-
+[![photo-3-2025-02-04-04-49-37.jpg](https://i.postimg.cc/bY3z9Qsm/photo-3-2025-02-04-04-49-37.jpg)](https://postimg.cc/0rKR8KGS)
 https://github.com/ibrahimelseginy/Islami/assets/160798019/8c8ef9f3-245c-4301-826d-dd13add31208
 
 ## Credits 🙌
