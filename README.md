@@ -70,23 +70,23 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 
 ## Light Mode ✨
 <div style="display: flex; justify-content: space-between;">
-<img src="https://i.postimg.cc/vHMM0jT9/346296464-7c8e5b48-e245-4c11-9fb5-f8a55c65dc11.jpg "  width="150" height="315">
-<img src="https://i.postimg.cc/hP9vjTz8/photo-5-2025-02-04-04-49-37.jpg "  width="150" height="315">
-<img src="https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg" width="150" height="315">
-<img src="https://i.postimg.cc/KjLRRjD6/photo-4-2025-02-04-04-49-37.jpg " width="150" height="315">
-<img src="https://i.postimg.cc/76JLWhd5/photo-6-2025-02-04-04-49-37.jpg " width="150" height="315">
-<img src="https://i.postimg.cc/KcLz7KtV/photo-7-2025-02-04-04-49-37.jpg" width="150" height="315">
+<img src="https://i.postimg.cc/vHMM0jT9/346296464-7c8e5b48-e245-4c11-9fb5-f8a55c65dc11.jpg "  width="160" height="315">
+<img src="https://i.postimg.cc/hP9vjTz8/photo-5-2025-02-04-04-49-37.jpg "  width="160" height="315">
+<img src="https://i.postimg.cc/DfQ34g6z/photo-1-2025-02-04-04-49-37.jpg" width="160" height="315">
+<img src="https://i.postimg.cc/KjLRRjD6/photo-4-2025-02-04-04-49-37.jpg " width="160" height="315">
+<img src="https://i.postimg.cc/76JLWhd5/photo-6-2025-02-04-04-49-37.jpg " width="160" height="315">
+<img src="https://i.postimg.cc/KcLz7KtV/photo-7-2025-02-04-04-49-37.jpg" width="160" height="315">
 
 </div>
 
 ## Dark Mode ✨
 <div style="display: flex; justify-content: space-between; margin-top: 50px;">
  
-<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg" width="150" height="315">
-<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg " width="150" height="315">
-<img src="https://i.postimg.cc/YSG4Jdm2/photo-9-2025-02-04-04-49-37.jpg " width="150" height="315">
-<img src="  https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg " width="150" height="315">
-<img src="  " width="150" height="315"> 
+<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg" width="160" height="315">
+<img src=" https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg " width="160" height="315">
+<img src="https://i.postimg.cc/YSG4Jdm2/photo-9-2025-02-04-04-49-37.jpg " width="160" height="315">
+<img src="  https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg " width="160" height="315">
+<img src="  " width="160" height="315"> 
 </div>
 [![photo-8-2025-02-04-04-49-37.jpg](https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg)](https://postimg.cc/gwKcHXtj)
 <div>  Islami 🕌</div>  
