@@ -81,13 +81,13 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 
 ## Dark Mode ✨
 <div style="display: flex; justify-content: space-between; margin-top: 50px;">
- 
+<img src="https://i.postimg.cc/SswNc4Zc/splash-1.png" width="160" height="315">
 <img src="https://i.postimg.cc/wjWLKtf2/photo-2-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/mD9HFmbp/photo-10-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/YSG4Jdm2/photo-9-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/bY3z9Qsm/photo-3-2025-02-04-04-49-37.jpg" width="160" height="315">
-<img src="https://i.postimg.cc/SswNc4Zc/splash-1.png" width="160" height="315">
+
  
 </div>
 [![photo-8-2025-02-04-04-49-37.jpg](https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg)](https://postimg.cc/gwKcHXtj)
