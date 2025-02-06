@@ -76,7 +76,6 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 <img src="https://i.postimg.cc/KjLRRjD6/photo-4-2025-02-04-04-49-37.jpg " width="160" height="315">
 <img src="https://i.postimg.cc/76JLWhd5/photo-6-2025-02-04-04-49-37.jpg " width="160" height="315">
 <img src="https://i.postimg.cc/KcLz7KtV/photo-7-2025-02-04-04-49-37.jpg" width="160" height="315">
-
 </div>
 
 ## Dark Mode ✨
@@ -87,13 +86,11 @@ https://www.figma.com/proto/CTPCxoTl7EH2rO97OlBM47/Islami?node-id=1-87&t=mrjchNw
 <img src="https://i.postimg.cc/YSG4Jdm2/photo-9-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg" width="160" height="315">
 <img src="https://i.postimg.cc/bY3z9Qsm/photo-3-2025-02-04-04-49-37.jpg" width="160" height="315">
-
- 
 </div>
-[![photo-8-2025-02-04-04-49-37.jpg](https://i.postimg.cc/3wsy72gX/photo-8-2025-02-04-04-49-37.jpg)](https://postimg.cc/gwKcHXtj)
+
 <div>  Islami 🕌</div>  
-[![photo-3-2025-02-04-04-49-37.jpg](https://i.postimg.cc/bY3z9Qsm/photo-3-2025-02-04-04-49-37.jpg)](https://postimg.cc/0rKR8KGS)
-https://github.com/ibrahimelseginy/Islami/assets/160798019/8c8ef9f3-245c-4301-826d-dd13add31208
+
+
 
 ## Credits 🙌
 
