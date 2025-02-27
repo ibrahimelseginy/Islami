@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:islami_testing/app_theme.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
 import 'package:provider/provider.dart';
 
 class SebhaTab extends StatefulWidget {

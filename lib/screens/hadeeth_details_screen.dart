@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islami_testing/app_theme.dart';
-import 'package:islami_testing/tabs/hadeth/hadeth.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:islami_testing/models/hadeth_model.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
 import 'package:provider/provider.dart';
 
 class HadeethDetailsScreen extends StatelessWidget {

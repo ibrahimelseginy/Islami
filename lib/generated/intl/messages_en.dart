@@ -22,18 +22,21 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "arabic": MessageLookupByLibrary.simpleMessage(" Arabic"),
-    "ayat_count": MessageLookupByLibrary.simpleMessage("Number of Ayat"),
-    "darkMode": MessageLookupByLibrary.simpleMessage("DarkMode"),
-    "english": MessageLookupByLibrary.simpleMessage("English"),
-    "hadeth": MessageLookupByLibrary.simpleMessage("Hadeth"),
-    "islami": MessageLookupByLibrary.simpleMessage("Islami"),
-    "language": MessageLookupByLibrary.simpleMessage(" language"),
-    "quran": MessageLookupByLibrary.simpleMessage("Quran"),
-    "radio": MessageLookupByLibrary.simpleMessage("Radio"),
-    "sebha": MessageLookupByLibrary.simpleMessage("Sebha"),
-    "settings": MessageLookupByLibrary.simpleMessage("Settings"),
-    "sura": MessageLookupByLibrary.simpleMessage("Sura "),
-    "tasbeeh_count": MessageLookupByLibrary.simpleMessage("Tasbeeh Count"),
-  };
+        "arabic": MessageLookupByLibrary.simpleMessage(" Arabic"),
+        "ayat_count": MessageLookupByLibrary.simpleMessage("Number of Ayat"),
+        "mode": MessageLookupByLibrary.simpleMessage("Mode"),
+        
+        "lightMode": MessageLookupByLibrary.simpleMessage("LightMode"),
+        "darkMode": MessageLookupByLibrary.simpleMessage("DarkMode"),
+        "english": MessageLookupByLibrary.simpleMessage("English"),
+        "hadeth": MessageLookupByLibrary.simpleMessage("Hadeth"),
+        "islami": MessageLookupByLibrary.simpleMessage("Islami"),
+        "language": MessageLookupByLibrary.simpleMessage(" language"),
+        "quran": MessageLookupByLibrary.simpleMessage("Quran"),
+        "radio": MessageLookupByLibrary.simpleMessage("Radio"),
+        "sebha": MessageLookupByLibrary.simpleMessage("Sebha"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
+        "sura": MessageLookupByLibrary.simpleMessage("Sura "),
+        "tasbeeh_count": MessageLookupByLibrary.simpleMessage("Tasbeeh Count"),
+      };
 }

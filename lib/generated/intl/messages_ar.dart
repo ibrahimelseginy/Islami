@@ -22,18 +22,21 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "arabic": MessageLookupByLibrary.simpleMessage(" العربية"),
-    "ayat_count": MessageLookupByLibrary.simpleMessage("عدد الايات"),
-    "darkMode": MessageLookupByLibrary.simpleMessage("مظهر داكن"),
-    "english": MessageLookupByLibrary.simpleMessage("الانجليزية"),
-    "hadeth": MessageLookupByLibrary.simpleMessage("الحديث"),
-    "islami": MessageLookupByLibrary.simpleMessage("إسلامي"),
-    "language": MessageLookupByLibrary.simpleMessage(" اللغة"),
-    "quran": MessageLookupByLibrary.simpleMessage("القرأن"),
-    "radio": MessageLookupByLibrary.simpleMessage("الراديو"),
-    "sebha": MessageLookupByLibrary.simpleMessage("السبحة"),
-    "settings": MessageLookupByLibrary.simpleMessage("الاعدادت"),
-    "sura": MessageLookupByLibrary.simpleMessage(" السور"),
-    "tasbeeh_count": MessageLookupByLibrary.simpleMessage("عدد التسبيحات"),
-  };
+        "arabic": MessageLookupByLibrary.simpleMessage(" العربية"),
+        "ayat_count": MessageLookupByLibrary.simpleMessage("عدد الايات"),
+        "mode": MessageLookupByLibrary.simpleMessage("المظهر "),
+        
+        "lightMode": MessageLookupByLibrary.simpleMessage("مظهر فاتح"),
+        "darkMode": MessageLookupByLibrary.simpleMessage("مظهر داكن"),
+        "english": MessageLookupByLibrary.simpleMessage("الانجليزية"),
+        "hadeth": MessageLookupByLibrary.simpleMessage("الحديث"),
+        "islami": MessageLookupByLibrary.simpleMessage("إسلامي"),
+        "language": MessageLookupByLibrary.simpleMessage(" اللغة"),
+        "quran": MessageLookupByLibrary.simpleMessage("القرأن"),
+        "radio": MessageLookupByLibrary.simpleMessage("الراديو"),
+        "sebha": MessageLookupByLibrary.simpleMessage("السبحة"),
+        "settings": MessageLookupByLibrary.simpleMessage("الاعدادت"),
+        "sura": MessageLookupByLibrary.simpleMessage(" السور"),
+        "tasbeeh_count": MessageLookupByLibrary.simpleMessage("عدد التسبيحات"),
+      };
 }

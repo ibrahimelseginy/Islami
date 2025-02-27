@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami_testing/app_theme.dart';
 import 'package:islami_testing/generated/l10n.dart';
-import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
+import 'package:islami_testing/models/sura_model.dart';
+import 'package:islami_testing/screens/sura_details_screen.dart';
 
 class QuranTab extends StatefulWidget {
   const QuranTab({super.key});

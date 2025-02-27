@@ -4,8 +4,9 @@ import 'package:islami_testing/tabs/hadeth/hadeeth_tab.dart';
 import 'package:islami_testing/tabs/quran/quran_tab.dart';
 import 'package:islami_testing/tabs/radio/radio_tab.dart';
 import 'package:islami_testing/tabs/sebha/sebha_tab.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
-import 'package:islami_testing/tabs/settings/settings_tab.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
+// import 'package:islami_testing/tabs/settings/settings_tab.dart';
+import 'package:islami_testing/tabs/settings/settingstab.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -21,7 +22,8 @@ class _HomeScreenState extends State<HomeScreen> {
     HadeethTab(),
     SebhaTab(),
     RadioTab(),
-    SettingsTab(),
+    Settings()
+    // SettingsTab(),
   ];
   int selectedIndex = 0;
 

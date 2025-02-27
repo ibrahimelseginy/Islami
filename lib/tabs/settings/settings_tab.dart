@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islami_testing/app_theme.dart';
 import 'package:islami_testing/generated/l10n.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
 import 'package:provider/provider.dart';
 
 class SettingsTab extends StatefulWidget {
@@ -44,7 +44,7 @@ class _SettingsTabState extends State<SettingsTab> {
                   },
                   activeColor: Theme.of(context).primaryColor,
                   inactiveTrackColor: Theme.of(context).primaryColor,
-                  thumbColor: WidgetStateProperty.all(AppTheme.white),
+                  // thumbColor: WidgetStateProperty.all(AppTheme.white),
                   inactiveThumbColor: AppTheme.white,
                 )
               ],

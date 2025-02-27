@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami_testing/app_theme.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:islami_testing/models/sura_model.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
 import 'package:islami_testing/widgets/loading_indicator.dart';
 import 'package:provider/provider.dart';
 
@@ -74,8 +75,4 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
   }
 }
 
-class SuraDetailsArgs {
-  int index;
-  String suraName;
-  SuraDetailsArgs(this.index, this.suraName);
-}
+

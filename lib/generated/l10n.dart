@@ -84,6 +84,14 @@ class S {
   String get darkMode {
     return Intl.message('DarkMode', name: 'darkMode', desc: '', args: []);
   }
+  /// `mode`
+  String get mode {
+    return Intl.message('Mode', name: 'mode', desc: '', args: []);
+  }
+  /// `LightMode`
+  String get lightMode {
+    return Intl.message('LightMode', name: 'lightMode', desc: '', args: []);
+  }
 
   /// ` language`
   String get language {

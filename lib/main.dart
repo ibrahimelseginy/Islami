@@ -2,22 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:islami_testing/app_theme.dart';
 import 'package:islami_testing/generated/l10n.dart';
-import 'package:islami_testing/home_screen.dart';
-import 'package:islami_testing/tabs/hadeth/hadeeth_details_screen.dart';
-import 'package:islami_testing/tabs/quran/sura_details_screen.dart';
-import 'package:islami_testing/tabs/settings/settings_provider.dart';
+import 'package:islami_testing/screens/home_screen.dart';
+import 'package:islami_testing/screens/hadeeth_details_screen.dart';
+import 'package:islami_testing/screens/sura_details_screen.dart';
+import 'package:islami_testing/provider/settings_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
-void main() {
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  runApp(
-    ChangeNotifierProvider(
-      create: (context) => SettingsProvider(),
-      child: const Islami(),
-    ),
-  );
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  var settingsProvider = SettingsProvider();
+  await settingsProvider.loadThemeMode();
+  runApp(ChangeNotifierProvider(
+      create: (context) => SettingsProvider(), child: const Islami()));
 }
 
 class Islami extends StatelessWidget {

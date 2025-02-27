@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami_testing/tabs/hadeth/hadeeth_details_screen.dart';
-import 'package:islami_testing/tabs/hadeth/hadeth.dart';
+import 'package:islami_testing/screens/hadeeth_details_screen.dart';
+import 'package:islami_testing/models/hadeth_model.dart';
 import 'package:islami_testing/widgets/loading_indicator.dart';
 
 class HadeethTab extends StatefulWidget {
